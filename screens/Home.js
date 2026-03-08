@@ -30,17 +30,6 @@ export default function HomeScreen({ session }) {
     if (data) setCoaches(data);
   }
 
-  async function fetchMyBookings() {
-    const { data, error } = await supabase
-      .from('bookings')
-      .select(`*, slots (start_time, end_time, coaches (profiles (full_name)))`)
-      .eq('player_id', session.user.id)
-      .order('created_at', { ascending: false });
-
-    if (error) Alert.alert("Erreur", error.message);
-    else setMyBookings(data || []);
-  }
-
   async function becomeCoach() {
     if (!location) return;
     const { error } = await supabase.from('coaches').insert({
@@ -125,10 +114,6 @@ export default function HomeScreen({ session }) {
         
         <TouchableOpacity style={styles.buttonPrimary} onPress={becomeCoach}>
             <Text style={styles.buttonTextWhite}>Devenir Coach</Text>
-        </TouchableOpacity>
-          
-        <TouchableOpacity style={styles.buttonSecondary} onPress={() => { fetchMyBookings(); setListModalVisible(true); }}>
-            <Text style={styles.buttonTextDark}>📅 Mes Réservations</Text>
         </TouchableOpacity>
           
         <TouchableOpacity style={styles.buttonDanger} onPress={handleSignOut}>
