@@ -12,7 +12,7 @@
 
 *(💡 Conseil : Ajoute ici 2 ou 3 captures d'écran de ton application : l'écran de connexion, la carte avec les marqueurs, et la liste des réservations d'un coach)*
 
-![Écran de connexion](lien_vers_image_1.png) | ![Carte des coachs](lien_vers_image_2.png) | ![Tableau de bord Coach](lien_vers_image_3.png)
+![Écran de connexion](./Screenshots/log_in_screen.jpeg) | ![Carte des coachs](./Screenshots/Map_screen.jpeg) | ![Tableau de bord Coach](./Screenshots/Coach_screen.jpeg)
 
 ## 🚀 Fonctionnalités principales
 
