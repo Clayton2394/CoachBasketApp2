@@ -10,9 +10,13 @@
 
 ## 📱 Aperçu du projet
 
-*(💡 Conseil : Ajoute ici 2 ou 3 captures d'écran de ton application : l'écran de connexion, la carte avec les marqueurs, et la liste des réservations d'un coach)*
-
-![Écran de connexion](./Screenshots/log_in_screen.jpeg) | ![Carte des coachs](./Screenshots/Map_screen.jpeg) | ![Tableau de bord Coach](./Screenshots/Coach_screen.jpeg)
+<div align="center">
+  <img src="./Screenshots/log_in_screen.jpeg" alt="Écran de connexion" width="250" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./Screenshots/Map_screen.jpeg" alt="Carte des coachs" width="250" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./Screenshots/Coach_screen.jpeg" alt="Tableau de bord" width="250" />
+</div>
 
 ## 🚀 Fonctionnalités principales
 
