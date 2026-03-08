@@ -1,4 +1,4 @@
-# 🏀 CoachFinder (Nom à adapter)
+# 🏀 CoachFinder
 
 > Une application mobile de mise en relation entre sportifs et coachs professionnels, avec système de géolocalisation et de réservation en temps réel.
 
